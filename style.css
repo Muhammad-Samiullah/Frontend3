@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+.site-title {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Pacifico', cursive;
+    font-weight: lighter;
+}
+
+.site-title a {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline overline;
+    cursor: pointer;
+}
+
+.input {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+}
+
+.input input {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    font-size: 1.5rem;
+    align-items: center;
+    color: #666;
+}
+
+.input input::placeholder {
+    color: #ccc;
+}
+
+.left-icon,
+.right-icon {
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.button {
+    width: 100%;
+}
+
+button {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.img {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 475px;
+    height: 350px;
+    position: relative;
+}
+
+.img-texts {
+   position: absolute;
+   bottom: 3%;
+   left: 40%; 
+}
+
+.img-texts > p {
+    color: white;
+    font-weight: 600;
+}
+
+#page-title {
+    margin-bottom: 100px;
+}
+
+@media (max-width: 480px) {
+    .img {
+        width: 350px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 350px) {
+    .img {
+        width: 300px;
+        height: 250px;
+    }
+    #meme-input::placeholder {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 300px) {
+    .img {
+        width: 250px;
+        height: 200px;
+    }
+}

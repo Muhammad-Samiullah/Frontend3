@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Draggy Dog</title>
+</head>
+<body>
+    <div class="container">
+        <center>
+            <h1 class="site-title">
+                <a href="">Draggy Dog</a>
+            </h1>
+        </center>
+        <form id="meme-form">
+            <div class="input">
+                <div class="left-icon">
+                    <i class="fas fa-dog"></i>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="MEME GENERATOR" name="g" id="meme-input">
+                </div>
+                <div class="right-icon">
+                    <i class="fas fa-paw"></i>
+                </div>
+            </div>
+            <div class="button">
+                <center><button id="meme-btn">↲</button></center>
+            </div>
+        </form>
+        <center>
+            <div class="img" style='background-image: url("https://draggydog.com/image.gif");'>
+                <div class="img-texts">
+                    <p id="page-title" style="display: none;">DraggyDog.com</p>
+                    <p id="meme-text"></p>
+                </div>
+            </div>
+        </center>
+    </div>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
